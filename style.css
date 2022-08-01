@@ -10,7 +10,7 @@ body{
 /* Sidebar styles */
 .sidebar{
   background-color: #22c55e;
-  width: 15vw;
+  width: 16vw;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
@@ -25,6 +25,11 @@ body{
   align-items: center;
   color: white;
   cursor: pointer;
+  text-align: center;
+}
+
+.logo h2{
+  font-size: 30px;
 }
 
 
@@ -48,11 +53,12 @@ body{
   color: white;
   text-decoration: none;
   cursor: pointer;
+  font-size: 25px;
 }
 
 
 .menu img{
-  height: 20px;
+  height: 30px;
   width: auto;
 }
 
@@ -156,7 +162,38 @@ body{
   font-weight: 900;
 }
 
+/* Main Content Styles */
 
 .main-content{
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+  grid-template-rows: 1fr;
   background-color: #dcfce7;
+  align-items: center;
+}
+
+.main-content{
+  display: flex;
+}
+
+.main-content-left{
+  flex: 1.5;
+  padding-left: 100px;
+}
+
+.main-content-right{
+  flex: 0.5;
+  padding-left: 40px;
+}
+
+
+.project-grid{
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr 0.8fr;
+  grid-template-rows: 200px 200px 200px;
+  gap: 50px;
+}
+
+.project-box{
+  background-color: #f0fdf4;
 }
