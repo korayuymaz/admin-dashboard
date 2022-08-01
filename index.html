@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
   <title>Admin Dashboard</title>
 </head>
 <body>
@@ -59,28 +59,26 @@
   </div>
   <div class="main">
     <div class="header">
-      <div class="top">
-        <div class="icon"></div>
-        <input type="text">
-        <div class="icon"></div>
-        <div class="pp-small"></div>
-        <div class="">Koray Uymaz</div>
+      <div class="header-flex">
+        <img class="icon" src="./assets/icons/magnify.png" alt="search">
+        <input type="text" class="search-input">
       </div>
-      <div class="bottom">
-        <div class="profile">
-          <div class="pp-big">
-
-          </div>
-          <div class="profile-welcome">
-            <div class="">Hi there,</div>
-            <div>Koray Uymaz (@koray)</div>
-          </div>
+      <div class="header-flex top-right">
+        <img class="icon" src="./assets/icons/alarm-light-outline.png" alt="reminder">
+        <img src="./assets/profile-pics/zoro.jpg" class="pp-small" alt="zoro-small">
+        <p class="big-text">Koray Uymaz</p>
+      </div>
+      <div class="header-flex bottom-left">
+        <img class="pp-big" src="./assets/profile-pics/zoro.jpg" alt="zoro">
+        <div class="welcome-text">
+          <p class="small-text">Hi There,</p>
+          <p class="big-text">Koray Uymaz (@koray)</p>
         </div>
-        <div class="acion-buttons">
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
-        </div>
+      </div>
+      <div class="header-flex">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
       </div>
     </div>
     <div class="main-content">
