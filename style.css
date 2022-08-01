@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  display: flex;
+}
+.sidebar{
+  background-color: #28B61B;
+  width: 10vw;
+}
+
+.logo img{
+  width: 50px;
+  height: auto;
+}
+
